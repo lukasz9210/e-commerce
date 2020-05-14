@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+.children-wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+.home .card {
+    width: 22%;
+    margin: 50px calc(12% / 8)
+}
+.card span.text-muted {
+    display: inline-block;
+    width: 100px;;
+}
+.card span.font-weight-bold {
+    font-size: 24px;;
+}
+.card-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.created-date {
+    font-style: italic;
+    font-weight: lighter;
+}
+.shop-products {
+    width: 75%;
+}
+.sidebar {
+    width: 25%;
+}
+.shop-products .card {
+    width: 40%;
+    margin: 50px auto;
+}
+.quantity-input {
+    align-items: center;
+}
+.quantity-input label {
+    width: 120px;
+}
+.quantity-input input {
+    width: 60px;
+}
